@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box{
+	width: 960px;
+	margin: 50px auto;
+}
+.box1{
+	margin-right: 30px;
+	padding: 10px;
+	width: 300px;
+	float: left;
+	position: relative;
+	border: 1px solid #eee;
+}
+.box2{
+	margin-right: 30px;
+	padding: 10px;
+	width: 300px;
+	float:left;
+	position: relative;
+	border: 1px solid #eee;
+}
+.box3{
+	/*margin-right: 30px;*/
+	padding: 10px;
+	width: 300px;
+	float:left;
+	position: relative;
+	border: 1px solid #eee;
+}
+.step-tag{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}
+
+.pic-1{
+	height: 150px;
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow01.png);
+}
+.pic-2{
+	height: 150px;
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow02.png);
+}
+.pic-3{
+	height: 150px;
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow03.png);
+}
+.title{
+	margin: 15px 0 5px;
+}
+
+@media screen and (max-width: 768px)
+{
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+/*.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}*/
+.box{
+	width: 300px;
+	margin: 50px auto;
+}
+.box1{
+	/*margin-right: 30px;*/
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 300px;
+	float: none;
+	position: relative;
+	border: 1px solid #eee;
+}
+.box2{
+	/*margin-right: 30px;*/
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 300px;
+	float:none;
+	position: relative;
+	border: 1px solid #eee;
+}
+.box3{
+	/*margin-right: 30px;*/
+	padding: 10px;
+	width: 300px;
+	float:none;
+	position: relative;
+	border: 1px solid #eee;
+}
+.step-tag{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}
+
+.pic-1{
+	height: 150px;
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow01.png);
+}
+.pic-2{
+	height: 150px;
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow02.png);
+}
+.pic-3{
+	height: 150px;
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow03.png);
+}
+.title{
+	margin: 15px 0 5px;
+}
+}
